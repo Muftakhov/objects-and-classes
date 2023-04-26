@@ -7,6 +7,7 @@ public class Book {
         this.Autor = Autor;
         this.age = age;
     }
+
     public String getTitle (){
         return this.title;
     }
@@ -19,4 +20,5 @@ public class Book {
     public void setAge (int age) {
         this.age = age;
     }
+
 }
